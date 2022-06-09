@@ -1,0 +1,35 @@
+@import '../abstract/variables';
+
+#curiosidades{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img{
+    padding-top: 4rem;
+
+  }
+  .content{
+    text-align: center;
+    padding-top:.5rem ;
+    padding-bottom: 4rem;
+    h3{
+      text-transform: uppercase;
+      font-weight: 300;
+      color: $cor-terciaria;
+      font-size: $tamanho-do-texto / 2.5;
+      margin: 1rem;
+    }
+    h4{
+      font-size: $tamanho-do-texto/1.2;
+      margin: 3rem;
+      font-weight: 300;
+    }
+    p{
+      font-size: $tamanho-do-texto/2.8;
+        font-weight: 300;
+        color: $cor-secundaria;
+        line-height: 1.25rem;
+    }
+  }
+}

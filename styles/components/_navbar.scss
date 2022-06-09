@@ -1,0 +1,22 @@
+@import '../abstract/variables';
+
+nav{
+  text-align: center;
+  ul{
+    li{
+      display: inline-block;
+      padding: 1rem;
+      a{
+        text-transform: uppercase;
+        text-decoration: none;
+        font-weight: 700;
+        color: $cor-terciaria;
+        &:hover{
+          border-bottom: 2px solid $cor-secundaria;
+          filter: brightness(1.5);
+        }
+      }
+    }
+  }
+}
+
